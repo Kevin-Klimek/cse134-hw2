@@ -1,14 +1,14 @@
 z<aside>     feedback form wrapped in this, tangentially related to main article
 z<code>      terminal command to pass args to the program and run it
-<pre>       ? publishing info
+z<pre>       wrap code in a pre block to preserve code formatting
 z<hr>        horizontal bar
 <svg>       graph content
 z<optgroup>  feedback form -> favorite coffee (split into 2 groups)
-<datalist>  feedback form -> coolest sounding keyword autofill TODO: revisit part 4 readme.md
+z<datalist>  feedback form -> coolest sounding keyword autofill TODO: revisit part 4 readme.md
 z<select>    feedback form -> favorite coffee
 z<option>    feedback form -> all options
-<details>   technical specs and example commands content
-<summary>   technical specs and example commands dropdown
+z<details>   technical specs and example commands content
+z<summary>   technical specs and example commands dropdown
 <table>     data table
 <tr>        table row
 <td>        data cell
@@ -16,18 +16,18 @@ z<option>    feedback form -> all options
 <caption>   caption for the table
 <col>       table column styling
 <colgroup>  wrapper for the column styling
-<figure>    wrapper for contained starbucks and graph content
-<figcaption>caption for starbucks and data graph content, connected with figure
-<blockquote>block quote in the introduction section
-<cite>      
-<ins>       inserted underlined text to replace deleted text with
-<del>       deleted slashed out text to be replaced with inserted text
-<search>
-<address>
-<hgroup>
-<dd>        study group definitions for the terms
-<dt>        study group terms
-<dl>        description list of all the groups in the study
+z<figure>    wrapper for contained starbucks and graph content
+z<figcaption>caption for starbucks and data graph content, connected with figure
+z<blockquote>block quote in the introduction section
+z<cite>      citing the works under references
+z<ins>       inserted underlined text to replace deleted text with
+z<del>       deleted slashed out text to be replaced with inserted text
+z<search>    wrap around search bar
+z<address>   footer contact info
+z<hgroup>    group the doc title with publisher info
+z<dd>        study group definitions for the terms
+z<dt>        study group terms
+z<dl>        description list of all the groups in the study
 <abbr>      wrapped around the company abbreviation
 <dfn>
-<kbd>       wrapped around the ctrl + c statement for user keybind input
+z<kbd>       wrapped around the ctrl + c statement for user keybind input
