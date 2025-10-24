@@ -9,13 +9,13 @@ z<select>    feedback form -> favorite coffee
 z<option>    feedback form -> all options
 z<details>   technical specs and example commands content
 z<summary>   technical specs and example commands dropdown
-<table>     data table
-<tr>        table row
-<td>        data cell
-<th>        header cell
-<caption>   caption for the table
-<col>       table column styling
-<colgroup>  wrapper for the column styling
+z<table>     data table
+z<tr>        table row
+z<td>        data cell
+z<th>        column header cell
+z<caption>   caption for the table
+z<col>       table column styling
+z<colgroup>  wrapper for the column styling
 z<figure>    wrapper for contained starbucks and graph content
 z<figcaption>caption for starbucks and data graph content, connected with figure
 z<blockquote>block quote in the introduction section
