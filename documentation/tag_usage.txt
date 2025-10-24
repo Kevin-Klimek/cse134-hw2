@@ -1,12 +1,12 @@
-<aside>     feedback form wrapped in this, tangentially related to main article
-<code>      terminal command to pass args to the program and run it
+z<aside>     feedback form wrapped in this, tangentially related to main article
+z<code>      terminal command to pass args to the program and run it
 <pre>       ? publishing info
-<hr>        horizontal bar
+z<hr>        horizontal bar
 <svg>       graph content
-<optgroup>  feedback form -> favorite coffee (split into 2 groups)
+z<optgroup>  feedback form -> favorite coffee (split into 2 groups)
 <datalist>  feedback form -> coolest sounding keyword autofill TODO: revisit part 4 readme.md
-<select>    feedback form -> favorite coffee
-<option>    feedback form -> all options
+z<select>    feedback form -> favorite coffee
+z<option>    feedback form -> all options
 <details>   technical specs and example commands content
 <summary>   technical specs and example commands dropdown
 <table>     data table
@@ -30,4 +30,4 @@
 <dl>        description list of all the groups in the study
 <abbr>      wrapped around the company abbreviation
 <dfn>
-<kbd>
+<kbd>       wrapped around the ctrl + c statement for user keybind input

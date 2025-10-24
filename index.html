@@ -13,7 +13,12 @@
             <h1>Quantum Entanglement of Coffee Molecules: A Novel Approach to Productivity Enhancement</h1>
             <p><i>TBI: Publishing info</i></p>
             <hr/>
-            <p><i>TBI: Search bar</i></p>
+            <!-- Search bar -->
+            <div>
+                <label for="searchbar">Search within article:</label>
+                <input type="text" id="searchbar" placeholder="Enter keyword..."/>
+                <input type="button" value="Search">
+            </div>
         </header>
 
         <!-- Abstract -->
@@ -83,7 +88,7 @@
                     </p>
                     <p><b>Example replicate command (experimental automation):</b></p>
                     <p><code>./qed_control --mode entangle --temp 77K --pressure 1.21GPa --duration 00:04:30 --output run_2025-06-12.json</code></p>
-                    <p>Use Ctrl + C to cancel in the terminal if you need to abort the run.</p>
+                    <p>Use <kbd>Ctrl</kbd> + <kbd>C</kbd> to cancel in the terminal if you need to abort the run.</p>
              </details>
             <!-- TODO: check figcaption spacing-->
             <figure>
@@ -104,11 +109,61 @@
             <!-- TODO: implement fig2 graph and caption -->
         </section>
 
-        <!-- TODO: section 4. discussion, 5. conclusions, and references -->
+        <!-- Discussion -->
+        <section>
+            <h2>4. Discussion</h2>
+            <p>Our findings support the hypothesis that quantum entanglement can be maintained in biological systems at room temperature, contrary to conventional wisdom. The mechanism appears to involve resonance between caffeine molecules and neural microtubules.</p>
+            <h3>Note on Safety</h3>
+            <p>No adverse effects were observed during the study period. However, three participants reported experiencing &quot;temporal displacement sensations&quot; which resolved spontaneously.</p>
+        </section>
+
+        <!-- Conclusions -->
+        <section>
+            <h2>5. Conclusions</h2>
+            <p>This study demonstrates that quantum-entangled coffee represents a viable approach to enhancing workplace productivity. Key findings include:</p>
+            <ul>
+                <li>Quantum coherence can be maintained in coffee for up to 5 minutes post-brewing</li>
+                <li>Entangled caffeine molecules produce measurable improvements in cognitive function</li>
+                <li>The Afternoon Paradox can be overcome through quantum mechanical principles</li>
+            </ul>
+            <p>Future work will explore the possibility of quantum tea and investigate whether decaf coffee exists in a state of quantum superposition until observed.</p>
+        </section>
+
+        <!-- References -->
+        <section>
+            <h2>References</h2>
+        </section>
 
         <!-- TODO: feedback form -->
         <aside>
+            <form>
+                <label for="coffee-select">Favorite Coffee:</label>
+                <select id="coffee-select">
+                    <optgroup label="Common">
+                        <option>Latte</option>
+                        <option>Cappuccino</option>
+                        <option>Americano</option>
+                    </optgroup>
+                    <optgroup label="Rare">
+                        <option>Mocha</option>
+                        <option>Frapp&eacute;</option>
+                    </optgroup>
+                </select>
 
+                <br/>
+                <br/>
+                <label for="fav-keyword">Coolest Sounding Keyword</label>
+                <input list="keywords" id="fav-keyword" placeholder="Type or choose..."/>
+                <datalist id="keywords">
+                    <option value="quantum"></option>
+                    <option value="coffee"></option>
+                    <option value="productivity"></option>
+                </datalist>
+
+                <br/>
+                <br/>
+                <input type="submit" value="Submit">
+            </form>
         </aside>
         
         <!-- TODO: footer with email link -->
