@@ -1,3 +1,5 @@
+<!-- Grader's note: validation passed but complains about trailing slash on void elements -->
+<!-- Used them anyways, as course taught us to be strict despite html's permissivity for various reasons, such as XHTML compatibility -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -44,7 +46,7 @@
         <!-- Introduction-->
         <section>
             <h2>1. Introduction</h2>
-            <p>The relationship between caffeine consumption and productivity has been documented since the discovery of coffee in 850 CE <cite>[1]</cite>. However, traditional models fail to explain the <i>Afternoon Paradox</i> — the phenomenon whereby productivity decreases inversely with coffee consumption after 2:00 PM local time.</p>
+            <p>The relationship between caffeine consumption and productivity has been documented since the discovery of coffee in 850 CE <cite>[1]</cite>. However, traditional models fail to explain the <dfn>Afternoon Paradox</dfn> — the phenomenon whereby productivity decreases inversely with coffee consumption after 2:00 PM local time.</p>
             <blockquote>
                 <p><q>Coffee is a beverage that puts one to sleep when not drank.</q></p>
                 <p><i>&mdash;Alphonse Allais, 1893</i></p>
@@ -54,7 +56,8 @@
 
         <!-- Methods -->
          <section>
-            <h2>2.1 Quantum Coffee Preparation</h2>
+            <h2>2. Methods</h2>
+            <h3>2.1 Quantum Coffee Preparation</h3>
             <!-- using <br/>s since semantically, the entire section is just one paragraph -->
             <p>
                 The experimental setup was revised to enhance clarity and safety protocols. The original method:<br/><br/>
@@ -73,7 +76,7 @@
 
         <!-- Experimental Design -->
         <section>
-            <h2>2.2 Experimental Design</h2>
+            <h3>2.2 Experimental Design</h3>
             <p>Participants (<i>n</i> = 2,847) were randomly assigned to three groups:<br/></p>
             <dl>
                 <dt>Control Group (CG)</dt>
@@ -198,37 +201,40 @@
             </ol>
         </section>
 
-        <!-- TODO: feedback form finalize structure -->
-        <aside>
+        <!-- Feedback Form -->
+        <aside >
             <form>
-                <label for="coffee-select">Favorite Coffee:</label>
-                <select id="coffee-select">
-                    <optgroup label="Common">
-                        <option>Latte</option>
-                        <option>Cappuccino</option>
-                        <option>Americano</option>
-                    </optgroup>
-                    <optgroup label="Rare">
-                        <option>Mocha</option>
-                        <option>Frapp&eacute;</option>
-                    </optgroup>
-                </select>
+                <fieldset>
+                    <legend>Quick Feedback</legend>
+                    <label for="coffee-select">Favorite Coffee:</label>
+                    <select id="coffee-select">
+                        <optgroup label="Common">
+                            <option>Latte</option>
+                            <option>Cappuccino</option>
+                            <option>Americano</option>
+                        </optgroup>
+                        <optgroup label="Rare">
+                            <option>Mocha</option>
+                            <option>Frapp&eacute;</option>
+                        </optgroup>
+                    </select>
 
-                <br/>
-                <br/>
-                <label for="fav-keyword">Coolest Sounding Keyword</label>
-                <input list="keywords" id="fav-keyword" placeholder="Type or choose..."/>
-                <datalist id="keywords">
-                    <option value="quantum entanglement"></option>
-                    <option value="caffeine dynamics"></option>
-                    <option value="productivity paradox"></option>
-                    <option value="temporal mechanics"></option>
-                    <option value="corporate physics"></option>
-                </datalist>
+                    <br/>
+                    <br/>
+                    <label for="fav-keyword">Coolest Sounding Keyword</label>
+                    <input list="keywords" id="fav-keyword" placeholder="Type or choose..."/>
+                    <datalist id="keywords">
+                        <option value="quantum entanglement"></option>
+                        <option value="caffeine dynamics"></option>
+                        <option value="productivity paradox"></option>
+                        <option value="temporal mechanics"></option>
+                        <option value="corporate physics"></option>
+                    </datalist>
 
-                <br/>
-                <br/>
-                <input type="submit" value="Submit">
+                    <br/>
+                    <br/>
+                    <input type="submit" value="Submit">
+                </fieldset>
             </form>
         </aside>
         

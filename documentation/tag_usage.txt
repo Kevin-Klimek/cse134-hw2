@@ -28,6 +28,6 @@
 <dd>        study group definitions for the terms
 <dt>        study group terms
 <dl>        description list of all the groups in the study
-z<abbr>      wrapped around the company abbreviation
-z<dfn>
+<abbr>      wrapped around the company abbreviation
+<dfn>       around Afternoon Paradox, with the text after defining it
 <kbd>       wrapped around the ctrl + c statement for user keybind input
